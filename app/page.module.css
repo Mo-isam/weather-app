@@ -1,0 +1,21 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 300px;
+}
+.card > :not(:nth-child(1)) {
+    cursor: pointer;
+}
+
+.done {
+    text-decoration: line-through;
+}
+.control {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
